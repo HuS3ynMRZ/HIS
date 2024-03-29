@@ -4,14 +4,14 @@ namespace WebApp.Controllers
 {
     public class HomeController : Controller
     {
-        public string Index()
+        public IActionResult Index()
         {
-            return "this is my new site motherfuckers";
+            return View("Index");
         }
 
-        public string Error()
+        public IActionResult Sex(int id)
         {
-            return "Houston, we have an error";
+            return View("Sex");
         }
     }
 }
