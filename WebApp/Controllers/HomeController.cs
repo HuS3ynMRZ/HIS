@@ -11,7 +11,7 @@ namespace WebApp.Controllers
 
         public IActionResult Sex(int id)
         {
-            return View("Sex");
+            return View("Index");
         }
     }
 }
